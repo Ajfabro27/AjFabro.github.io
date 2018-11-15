@@ -1,0 +1,251 @@
+body {
+	background-color: POWDERBLUE;
+	color: none;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container >	 div {
+	padding: 100px;
+	background: white;
+	color: BLACK;
+	
+}
+
+.container {
+	
+	display: grid;
+	grid-gap: none;
+	grid-template-columns: 1fr 1fr;
+	padding: 0px;
+	
+	
+}
+.search {
+	text-align: right;
+}
+
+.logo {
+	text-align: left;
+}
+	
+#box1 {
+	grid-column: 1/1;
+	grid-row: 1/2;
+	border-style: outset;
+	border-width: thick;
+	background-image: url(../images/KAYAK.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box2 {
+	grid-column: 1/1;
+	grid-row: 2/3;
+	border-style: outset;
+	border-width: thick;
+	background-image: url(../images/JETSKI1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box3 {
+	grid-column: 1/1;
+	grid-row: 3/4;
+	border-style: outset;
+	border-width: thick;
+	background-image: url(../images/SAILING.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box4 {
+	grid-column: 1/1;
+	grid-row: 4/5;
+	border-style: outset;
+	border-width: thick;
+	background-image: url(../images/SCUBA.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box5 {
+	grid-column: 1/1;
+	grid-row: 5/6;
+	border-style: outset;
+	border-width: thick;
+	background-image: url(../images/WALLCLIMBING.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box6 {
+	grid-column: 1/1;
+	grid-row: 6/7;
+	border-style: outset;
+	border-width: thick;
+	background-image: url(../images/ZIPLINE.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box7 {
+	grid-column: 2/2;
+	grid-row: 1/2;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: segoe script;
+	font-size: 40px;
+}
+
+#box8 {
+	grid-column: 2/2;
+	grid-row: 2/3;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: segoe script;
+	font-size: 40px;
+}
+
+#box9 {
+	grid-column: 2/2;
+	grid-row: 3/4;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: segoe script;
+	font-size: 40px;
+}
+
+#box10 {
+	grid-column: 2/2;
+	grid-row: 4/5;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: segoe script;
+	font-size: 40px;
+}
+
+#box11 {
+	grid-column: 2/2;
+	grid-row: 5/6;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: segoe script;
+	font-size: 40px;
+}
+
+#box12 {
+	grid-column: 2/2;
+	grid-row: 6/7;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: segoe script;
+	font-size: 40px;
+}
+
+#box13 {
+	grid-column: 3/3;
+	grid-row: 1/2;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: calambri;
+	font-size: 23px;
+}
+
+#box14 {
+	grid-column: 3/3;
+	grid-row: 2/3;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: calambri;
+	font-size: 23px;
+}
+
+#box15 {
+	grid-column: 3/3;
+	grid-row: 3/4;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: calambri;
+	font-size: 23px;
+}
+
+#box16 {
+	grid-column: 3/3;
+	grid-row: 4/5;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: calambri;
+	font-size: 23px;
+}
+
+#box17 {
+	grid-column: 3/3;
+	grid-row: 5/6;
+	border-style: outset;
+	border-width: thick;rey;
+	background-color: POWDERBLUE;
+	font-family: calambri;
+	font-size: 23px;
+}
+
+#box18{
+	grid-column: 3/3;
+	grid-row: 6/7;
+	border-style: outset;
+	border-width: thick;
+	background-color: POWDERBLUE;
+	font-family: calambri;
+	font-size: 23px;
+}
+
+.footer {
+	font-size: 20px;
+}
+
+.button {
+	background-color:#BC8F8F;
+	color: white;
+	padding: 10px;
+}
+
+.button-hover {
+	background-color:#CDC8B1;
+	color: white-space;
+}
+
+#main-menu { 
+	margin: 2px;
+	padding: 2px;
+	list-style: none;
+	padding: 30px;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	margin-top: 0px;
+}
+
+.footer {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #CCCCCC;
+	padding: 15px;
+	font-family: black-letter;
+	font-size: 18px;
+	border: 5px solid #CCCCCC;
+}

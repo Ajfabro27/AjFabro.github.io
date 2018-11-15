@@ -1,0 +1,81 @@
+body {
+	background-color: powderblue;
+	margin-top: 10px;
+}
+
+.main-header{
+	margin-button: 10px;
+}
+
+.container {
+	text-align: right;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.button {
+	background-color:#BC8F8F;
+	color: white;
+	padding: 10px;
+}
+
+.button-hover {
+	background-color:#CDC8B1;
+	color: white-space;
+}
+
+#main-menu { 
+	margin: 2px;
+	padding: 2px;
+	list-style: none;
+	padding: 30px;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	margin-top: 0px;
+}
+
+.showcase {
+	padding: 5px;
+	display: grid;
+	text-align: center;
+}
+
+.main-article {
+	display: grid;
+	padding: 50px;
+	margin: 10px;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr ;
+	text-align: center;
+	border-style: outset;
+	border-width: thick;
+}
+
+.activities {
+	padding: 10px;
+	display: grid;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #CCCCCC;
+	padding: 15px;
+	font-family: black-letter;
+	font-size: 18px;
+	border: 5px solid #CCCCCC;
+}
+
+.video  {
+	text-align: center;
+}
